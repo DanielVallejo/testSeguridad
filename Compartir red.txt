@@ -1,0 +1,11 @@
+1. 
+netsh wlan set hostednetwork mode=allow ssid=DanielVallejo key=1804567731
+2. Iniciar el host
+netsh wlan start hostednetwork
+3. Ir a centro de redes y recursos compartidos. Ir a la red que tenemos internet
+luego. Luego a propiedades, despues seleccionamos uso compartido y damos clic en la casilla
+"permitir que los usuarios de otras redes se conecten" y seleccionamos la conexion de area local que creamos.
+despues aceptamos y podemos verificar que tenemos internet en la red creada y podemos compartir internet.
+
+4. Para salir
+netsh wlan stop hostednetwork
