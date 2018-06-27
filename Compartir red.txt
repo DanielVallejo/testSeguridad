@@ -9,3 +9,5 @@ despues aceptamos y podemos verificar que tenemos internet en la red creada y po
 
 4. Para salir
 netsh wlan stop hostednetwork
+
+x
